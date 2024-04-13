@@ -24,7 +24,7 @@ default: &FULL_FIELD
   orography_path: None # provide path to orography.nc (NetCDF) file if set to true,
   exp_dir:             # directory path to store training checkpoints and other output
   train_data_path:     # full path to /train/, files should be formatted as .nc (NetCDF)
-  valid_data_path:     # full path to /test/, files should be formatted as .nc (NetCDF)
+  valid_data_path:     # full path to /validtion/, files should be formatted as .nc (NetCDF)
   time_means_path:     # full path to time_means.npy
   global_means_path:   # full path to global_means.npy
   global_stds_path:    # full path to global_stds.npy
