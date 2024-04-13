@@ -150,3 +150,7 @@ def reshape_fields_target(img, inp_or_tar, crop_size_x, crop_size_y,rnd_x, rnd_y
         img = img + np.random.normal(0, scale=params.noise_std, size=img.shape)
 
     return torch.as_tensor(img)
+
+# This file utilizes methods adapted from NVIDIA FourCastNet for data processing.
+# Original FourCastNet code can be found at https://github.com/NVlabs/FourCastNet
+# We thank the NVIDIA FourCastNet team for making their code available for use.
