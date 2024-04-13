@@ -223,3 +223,7 @@ class GetDataset(Dataset):
         #print("Target (tar) Shape:", tar.shape, "Min:", tar.min(), "Max:", tar.max())
     
         return inp, tar
+        
+# This file utilizes methods adapted from NVIDIA FourCastNet for data processing.
+# Original FourCastNet code can be found at https://github.com/NVlabs/FourCastNet
+# We thank the NVIDIA FourCastNet team for making their code available for use.
