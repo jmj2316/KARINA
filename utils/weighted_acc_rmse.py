@@ -168,3 +168,7 @@ def top_quantiles_error_torch(pred: torch.Tensor, target: torch.Tensor) -> torch
     P_tar = torch.quantile(target.view(n,c,h*w), q=qtile, dim=-1)
     P_pred = torch.quantile(pred.view(n,c,h*w), q=qtile, dim=-1)
     return torch.mean(P_pred - P_tar, dim=0)
+
+# This file utilizes methods adapted from NVIDIA FourCastNet for data processing.
+# Original FourCastNet code can be found at https://github.com/NVlabs/FourCastNet
+# We thank the NVIDIA FourCastNet team for making their code available for use.
