@@ -6,8 +6,8 @@ KARINA is a global data-driven weather forecasting model that achieves forecasti
 [Read more about KARINA here.](https://arxiv.org/abs/2403.10555)
 
 <p align="center">
-  <img src="images/karina_model.jpg" alt="Image 1 Description" height="300px" width="450px" style="margin-right: 10px;"/>
-  <img src="images/geocyclic_padding.png" alt="Image 2 Description" height="300px" width="450px"/>
+  <img src="images/karina_model.jpg" alt="Image 1 Description" height="300px" width="440px" style="margin-right: 10px;"/>
+  <img src="images/geocyclic_padding.png" alt="Image 2 Description" height="300px" width="440px"/>
 </p>
 
 <p align="center">
