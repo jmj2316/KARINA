@@ -50,3 +50,7 @@ default: &FULL_FIELD
 
   add_noise: !!bool False
   noise_std: 0
+
+# This file utilizes methods adapted from NVIDIA FourCastNet for data processing.
+# Original FourCastNet code can be found at https://github.com/NVlabs/FourCastNet
+# We thank the NVIDIA FourCastNet team for making their code available for use.
