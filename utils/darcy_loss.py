@@ -4,12 +4,6 @@ import scipy.io
 import h5py
 import torch.nn as nn
 
-
-#################################################
-#
-# Utilities
-#
-#################################################
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # reading data
@@ -296,3 +290,7 @@ class DenseNet(torch.nn.Module):
             x = l(x)
 
         return x
+
+# This file utilizes methods adapted from NVIDIA FourCastNet for data processing.
+# Original FourCastNet code can be found at https://github.com/NVlabs/FourCastNet
+# We thank the NVIDIA FourCastNet team for making their code available for use.
