@@ -43,4 +43,3 @@ We express our deepest gratitude to the NVIDIA FourCastNet team for their pionee
   year={2024}
 }
 ```
-google-site-verification: google924ddd7644a231c3.html
