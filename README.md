@@ -43,3 +43,5 @@ We express our deepest gratitude to the NVIDIA FourCastNet team for their pionee
   year={2024}
 }
 ```
+
+[![DOI](https://zenodo.org/badge/782338486.svg)](https://zenodo.org/doi/10.5281/zenodo.11439010)
