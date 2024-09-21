@@ -1,4 +1,4 @@
-# Copyright (c) 2022, FourCastNet authors
+# Copyright (c) 2024, Minjong Cheon
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
